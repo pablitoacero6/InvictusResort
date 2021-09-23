@@ -1,1 +1,3 @@
 Hotel Invictus Resort
+
+Se añade la vinculación de Jira con github
