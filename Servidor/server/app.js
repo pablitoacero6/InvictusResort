@@ -16,7 +16,7 @@ const pool = new Pool({
 })
 
 app.get('/', (req,res) =>{
-  res.send('Conectado con servidor')
+  res.json({name:'David', age:'22'})
 })
 
 app.post('/', jsonParser,(req, res) =>{
