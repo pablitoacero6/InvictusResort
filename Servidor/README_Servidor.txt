@@ -1,1 +1,3 @@
 Informacion servidor
+
+Mal equipo
