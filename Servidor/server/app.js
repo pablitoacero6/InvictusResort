@@ -15,8 +15,16 @@ const pool = new Pool({
   port: 5432,
 })
 
+app.get('/', (req,res) =>{
+  res.json({name:'David', age:'22'})
+})
 
-app.get('/', (req, res) => {
+app.post('/', jsonParser,(req, res) =>{
+  const value = req.body[0]["name"]
+  res.send(value)
+})
+
+app.get('/clientes', (req, res) => {
   pool.query('SELECT * FROM clientes', (error, results) => {
     if (error) {
       throw error
