@@ -1,5 +1,15 @@
-11,Lavanderia,Limpieza de ropa,10000,1000019726
-12,Domicilio,"Comida, droguería",5000,1000019726
-13,Limpieza,"Cama, limpieza habitacion",5000,1000019726
-14,WiFi,"Clave, mantenimiento",5000,1000019726
-15,Baño,"Toallas, mantenimiento, elementos de aseo",10000,1000019726
+s001,aparcamiento,Lugar de estacinamiento
+s002,comida,Desayuno
+s003,comida,Almuerzo
+s004,comida,Cena
+s005,internet,WiFi
+s006,entretenimiento,Netflix
+s007,entretenimiento,Amazon Prime
+s008,entretenimiento,Disney+
+s009,entretenimiento,HBO Max
+s010,limpieza,Elementos de aseo
+s011,limpieza,Habitacion
+s012,limpieza,Lavanderia
+s013,domicilio,Drogueria
+s014,domicilio,Market
+s015,domicilio,Restaurantes
