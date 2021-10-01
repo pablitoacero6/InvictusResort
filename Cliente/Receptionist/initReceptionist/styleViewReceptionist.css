@@ -11,7 +11,7 @@ html, body {
 #container {
     position: fixed;
     width: 80%;
-    height: 80%;
+    height: 82%;
     top: 10%;
     left: 10%;
     right: 10%;
@@ -36,18 +36,31 @@ html, body {
     animation-timing-function: linear;
 }
 
+#Center {
+    width: 94%;
+    height: 80%;
+    margin-top: 10px;
+    margin-left: 3%;
+    margin-right: 3%;
+    background: rgba(245, 245, 245, 0.87);
+    border-radius: 3px;
+    border: 1px solid white;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+    
+}
+
   h1,h2 {
     margin: 0px;
   }
 
-  h1 {
-    margin-left: 40px; 
+  #HotelName {
+    margin-left: 40px;
     display: inline-block;
     color: #000742 ;
-  }
+  }  
 
   header{
-    margin-top: 30px;
+    margin-top: 15px;
     font-family: Calibri;
     font-size: 18px;
     display: inline-block;
@@ -67,7 +80,7 @@ html, body {
     margin: 0 auto;
     display: block;
     text-decoration: none;
-    min-width: 130px;
+    width: 120px;
   }
   #menu li>a:hover{
     color: white;
@@ -81,4 +94,32 @@ html, body {
   }
   #menu>li:hover>ul {
     display:block;
+  }
+
+  #Welcome {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10px;
+    display: block;
+    width: 60%;
+    text-align: center;
+    color: #000000;
+  }
+
+  #HotelImage {
+    position: absolute;
+    margin-left: 30px;
+    opacity: .4;
+    z-index: 2;
+  }
+
+  #Paragraph {
+    position: absolute;
+    font-size: 25px;
+    color: black;
+    width: 50%;
+    margin-left: 40%;
+    margin-top: 10%;
+    z-index: 3;
+    font-weight: bold;
   }
