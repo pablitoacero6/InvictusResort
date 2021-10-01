@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styleBookARoom.css">
+    <link rel="stylesheet" href="styleDeleteABook.css">
     <title>Invictus resort</title>
 </head>
 <body>
@@ -21,14 +21,14 @@
           </nav>
         </header>
       <div id="Center">
-        <h1 id="Subtitle">Reservar habitacion</h1>
-        <button class="btn" id="button">Actualizar habitaciones</button>              
+        <h1 id="Subtitle">Eliminar reserva</h1>
+        <button class="btn" id="button">Actualizar reservas</button>              
         <div class="section">
             <table>
               <thead>
                 <tr>
-                  <th>Id. habitacion</th>
-                  <th>Disponibilidad</th>
+                  <th>Id. Reserva</th>
+                  <th>Nombre titular</th>
                 </tr>
               </thead>
               <tbody id="res">
@@ -36,18 +36,10 @@
             </table>
         </div>
         <li>
-          <Label for="ChooseRoom">Escriba id habitación a reservar:</Label>
+          <Label for="ChooseRoom">Escriba id reserva a eliminar:</Label>
           <input type="ChooseRoom">
         </li>
-        <li>
-          <label for="ChooseInitDate">Seleccione fecha inicial:</label>
-          <input type="date">
-        </li>
-        <li>
-          <label for="ChooseFinalDate">Seleccione fecha final:</label>
-          <input type="date">
-        </li>
-        <input type="submit" value="Reservar">
+        <input type="submit" value="Eliminar reserva">
       </div>
     </div>
     <script src="bookARoomJava.js"></script>
