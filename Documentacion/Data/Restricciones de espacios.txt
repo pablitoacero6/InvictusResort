@@ -1,11 +1,25 @@
 Reserva
-estado_reserva['A' activa, 'C' cancelada, 'T' terminada]
+estado_reserva[
+'A' activa, 
+'C' cancelada, 
+'T' terminada]
 
 Factura
-estado_factura['N' No paga, 'P' Paga]
+estado_factura[
+'N' No paga, 
+'P' Paga]
 
 Habitaciones
-tipo_habitacion['S' Suite, 'J' Junior suite, 'G' Gran Suite,
-	        'I' Individual, 'D' Doble, 'C' Cuadruple]
-estado_habitacion['D' Disponible, 'F' Fuera de servicio, 
-		  'M' en mantenimiento, 'O' Ocupada]
+tipo_habitacion[
+'S' Suite, 
+'J' Junior suite, 
+'G' Gran Suite,
+'I' Individual,
+'D' Doble, 
+'C' Cuadruple]
+estado_habitacion[
+'D' Disponible, 
+'F' Fuera de servicio, 
+'M' en mantenimiento, 
+'O' Ocupada, 
+'R' Reservada]
