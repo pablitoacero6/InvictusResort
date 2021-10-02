@@ -5,7 +5,6 @@ html, body {
     color: #444;
     -webkit-font-smoothing: antialiased;
     background: #000742;
- 
 }
 
 #container {
@@ -38,7 +37,7 @@ html, body {
 
 #Center {
     width: 94%;
-    height: 400px;
+    height: 440px;
     margin-top: 10px;
     margin-left: 3%;
     margin-right: 3%;
@@ -57,10 +56,12 @@ html, body {
     margin-left: 40px;
     display: inline-block;
     color: #000742 ;
+    font-size: 35px;
+    font-weight: bold;
   }  
 
   header{
-    margin-top: 15px;
+    margin-top: -5px;
     font-family: Calibri;
     font-size: 18px;
     display: inline-block;
