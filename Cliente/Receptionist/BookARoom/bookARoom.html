@@ -9,15 +9,14 @@
 </head>
 <body>
     <div id="container">
-      <h1 id="HotelName">INVICTUS RESORT</h1>
+      <a id="HotelName" href="../initReceptionist/ViewReceptionist.html">INVICTUS RESORT</a>
       <header>
           <nav>
             <ul id="menu">
-              <li><a href="">REGISTRAR CLIENTE</a></li>
-              <li><a href="">RESERVAR HABITACION</a></li>
-              <li><a href="">ELIMINAR RESERVAR</a></li>  
-              <li><a href="">FACTURAR CLIENTE</a></li>
-              <li><a href="">CONTACTO</a></li>
+              <li><a href="../ClientRegister/registerClient.html">REGISTRAR CLIENTE</a></li>
+              <li><a href="../BookARoom/bookARoom.html">RESERVAR HABITACION</a></li>
+              <li><a href="../DeleteABook/DeleteABook.html">ELIMINAR RESERVAR</a></li>  
+              <li><a href="../BillingClient/billingClient.html">FACTURAR CLIENTE</a></li>
             </ul>
           </nav>
         </header>
@@ -36,10 +35,18 @@
               </tbody>
             </table>
         </div>
-        <Label for="ChooseRoom">Elija la habitación a reservar</Label>
-        <input type="ChooseRoom">
-        <label for="ChooseDate">Seleccione fecha inicial y final</label>
-        <input type="ChooseDate">
+        <li>
+          <Label for="ChooseRoom">Escriba id habitación a reservar:</Label>
+          <input type="ChooseRoom">
+        </li>
+        <li>
+          <label for="ChooseInitDate">Seleccione fecha inicial:</label>
+          <input type="date">
+        </li>
+        <li>
+          <label for="ChooseFinalDate">Seleccione fecha final:</label>
+          <input type="date">
+        </li>
         <input type="submit" value="Reservar">
       </div>
     </div>
