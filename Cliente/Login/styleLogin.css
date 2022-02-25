@@ -77,7 +77,7 @@ label[for=TitleWelcome] {
     font-weight: bold;
 }
 
-label[for=name]{
+label[for=name], label[for=password] {
     margin-top: 5%;
 }
 
